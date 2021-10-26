@@ -1,0 +1,8 @@
+print("Enter text: ")
+text = input()
+text = text.replace("Uncle Styopa", "Yan")
+text = text.replace("uncle Styopa", "Yan")
+text = text.replace("Styopa", "Yan")
+text = text.replace("Uncle", "Yan")
+text = text.replace("uncle", "Yan")
+print(text)
