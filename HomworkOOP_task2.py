@@ -5,4 +5,4 @@ def fibonacci(n):
         yield fib1
 for fib in fibonacci(20):
     print(fib, end=' ')
-print()
+
